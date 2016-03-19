@@ -1,13 +1,19 @@
 package ua.gostart.goit.MusicShop;
 
+
 public abstract class MusicalInstrument {
-    private String name;
+    String typeName;
 
     public MusicalInstrument(String name) {
-        this.name = name;
+        this.typeName = name;
+        System.out.println("typeName " + typeName);
+    }
+
+    protected MusicalInstrument() {
+
     }
 
     public String getName() {
-        return name;
+        return typeName;
     }
 }
