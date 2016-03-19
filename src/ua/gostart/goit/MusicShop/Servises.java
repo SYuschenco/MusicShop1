@@ -54,7 +54,7 @@ public class Servises {
                     musicShop1.getGuitars().remove(i);
 
                 }
-                //                System.out.println(i);
+                // 1               System.out.println(i);
 
 //                musicShop1.getGuitars().size()=musicShop1.getGuitars().size()-1;
             }
